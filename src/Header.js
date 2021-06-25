@@ -12,7 +12,7 @@ export default class Header extends Component {
         <div className="Header_options">
           <div className="option1">
             <span className="Style">
-              HOME
+              Home
             </span>
 
           </div>
@@ -36,7 +36,7 @@ export default class Header extends Component {
           </div>
           <div className="option5">
             <span className="Style">
-            Contact us
+            Contact Us
             </span>
           </div>
 
