@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+.Header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(129, 214, 214);
+}
+
+.Header_logo {
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.Header_options {
+    position: relative;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    left: 27%;
+    justify-content: space-around;
+}
+
+.option1,
+.option2,
+.option3,
+.option4,
+.option5 {
+    display: flex;
+    height: 50px;
+    width: 70px;
+    font-size: 24px;
+    font-weight: 300;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.Style {
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 70px;
+}
+
+.Style:hover {
+    color: blue;
+}
+
+.Header_end {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.header_end_option {
+    height: 40px;
+    width: 70px;
+    font-size: 24px;
+    font-weight: 300;
+}
